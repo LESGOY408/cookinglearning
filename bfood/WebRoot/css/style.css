@@ -1,0 +1,476 @@
+body,td{
+     margin:0px;
+	 padding: 0;
+	 font-size:12px;
+	 font-family:Arial, Helvetica, sans-serif;
+}
+form{
+    margin:0px;
+	padding: 0;
+}
+img{
+	border:none;
+}
+a{
+	color:#222222;
+	text-decoration:none;
+}
+a:hover{
+	color:#F33;
+	text-decoration:none;
+}
+
+input,select,button{
+	font:12px Verdana,Arial,Tahoma;
+	vertical-align:middle;
+}
+#login{
+	margin:0 auto;
+	width:960px;
+	height:30px;
+	padding-right:5px;
+	overflow:hidden;
+	text-align:right;
+	color:#666;
+}
+#infoField{
+	line-height:30px;
+}
+#loginField{
+	line-height:30px;
+}
+#top{
+	margin:0 auto;
+	width:960px;
+	height:120px;
+	background-image:url('../images/top_2017.jpg');
+	background-repeat:no-repeat;
+}
+.sep{
+	width: 960px;  
+    height: 3px;  
+    color:black;
+	background-color:#489b0d;
+}
+.sep2{
+	width: 960px;  
+    border-top:1px solid #E5E5E5;
+	background-color:#E5E5E5;
+}
+#nav {  
+	position:absolute;
+    top:82px;  
+    width: 960px;  
+    height: 37px;  
+    line-height: 37px;  
+}
+#nav .navTitle{
+   float:left;
+	width:100px;
+    height: 37px;  
+    line-height: 37px;  
+    color:black;  
+    text-decoration:none;  
+    font-family: "微软雅黑";  
+    font-size: 18px;  
+    font-weight: bold;  
+}
+#nav ul {
+	margin:0px;   
+    padding:0px;  
+    float:right;
+}
+#nav li {/*后代选择器选择div中行内元素li的设置*/  
+    float: left;  
+    line-height: 37px;  
+    list-style-type:none;  
+    text-align:center;  
+    position:relative;/*给下拉菜单的父元素设置为相对定位*/    
+    margin:0px;   
+    padding:0px;  
+}  
+ 
+#nav a:link{/*后代选择器选择div中行内选择a设置未访问的链接状态*/  
+    color:black;  
+    text-decoration:none;  
+    font-family: "微软雅黑";  
+    font-size: 14px;  
+    font-weight: bold;  
+    width:89px;  
+    height:37px;  
+    display:block;  
+}  
+#nav a:visited{/*后代选择器选择div中行内选择a设置已访问的链接状态*/  
+    color:black;  
+    text-decoration:none;  
+    font-family: "微软雅黑";  
+    font-size: 14px;  
+    font-weight: bold;  
+    width:89px;  
+    height:37px;  
+    display:block;  
+}  
+#nav li:hover{/*后代选择器选择div中行内选择a设置鼠标悬浮在链接的的状态*/  
+    color:white;  
+    text-decoration:none;  
+    font-family: "微软雅黑";  
+    font-size: 14px;  
+    font-weight: bold;  
+    background-color: #acce92;  
+    width:89px;  
+    height:37px;  
+    display:block;  
+}   
+#nav ul.dropMenu {  
+    background-color: #d4ec9e;  
+    display: none;   
+    width: 89px;  
+    overflow: hidden;  
+    position: absolute;/*下拉列表设置为绝对定位*/  
+    z-index: 999;/*设置元素的堆叠属性*/  
+    left: 0px;  
+    top: 37px;    
+    margin:0px;   
+    padding:0px;  
+}
+#nav ul.dropMenu a:hover{  
+    background-color: #acce92;  
+} 
+#nav ul.dropMenu li {   
+    line-height: 37px; 
+    width: 89px;  
+} 
+
+#middle{
+	margin:0 auto;
+	width:960px;
+	overflow:hidden;
+}
+
+.titleBg{
+	height:30px;
+	line-height:30px;
+	background-image: url('../images/fr-bg3.gif');
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left:100px;
+	color:white;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.titleBg_text{
+	width:180px;
+	float:left;
+	line-height:30px;
+	color:#489b0d;
+	font-weight:bold;
+	font-size:14px;
+}
+.titleBg_more a{
+	width:80px;
+	float:right;
+	line-height:30px;
+	color:#489b0d;
+}
+
+#middle_login{
+	float:left;
+	width:280px;
+	overflow:hidden;
+}
+
+.login_con{
+	height:197px;
+	border:1px solid #489b0d;
+	border-top:2px solid #489b0d;
+	text-align:center;
+	padding-top:20px;
+	line-height:30px;
+	overflow:hidden;
+}
+
+#picnews{
+	float:left;
+	margin-left:5px;
+	width:673px;
+	height:250px;
+	background-color: rgb(102, 0, 0);
+	color:white;
+	overflow:hidden;
+}
+
+#middle_left{
+	float:left;
+	margin-top:5px;
+	width:655px;
+	overflow:hidden;
+}
+
+#middle_right{
+	float:left;
+	margin-top:5px;
+	margin-left:5px;
+	width:300px;
+	overflow:hidden;
+}
+#middle_left .info_pic img{
+	width:626px;
+	height:322px;
+}
+#middle_left .info_con1{
+	float:left;
+	width:220px;
+	height:120px;
+	line-height:30px;
+	margin-top:5px;
+	padding:10px;
+	border-right:1px solid #E5E5E5;
+	overflow:hidden;
+}
+#middle_left .info_con1 a{
+	font-size: 16px;
+	text-decoration:underline;
+	color:#489b0d;
+}
+#middle_left .info_con1  a:hover{
+	font-weight: bold;
+	text-decoration:underline;
+	color:#489b0d;
+}
+#middle_left .info_con1 .time{
+	color:#555555;
+}
+#middle_left .info_con2{
+	float:right;
+	width:400px;
+	height:120px;
+	ling-height:24px;
+	margin-top:5px;
+	overflow:hidden;
+}
+#middle_left .info_sep{
+	float:left;
+	width: 626px; 
+    height: 20px;  
+    margin-top:5px;
+    margin-bottom:5px;
+    border-bottom:1px solid #E5E5E5;
+}
+#middle_right .info_title{
+	width:296px;
+	height:50px;
+	line-height:50px;
+	font-size: 16px;
+	color:#555555;
+}
+#middle_right .info_pic img{
+	width:296px;
+	height:152px;
+}
+#middle_right .info_con1{
+	width:296px;
+	height:50px;
+	line-height:50px;
+	overflow:hidden;
+}
+#middle_right .info_con1 a{
+	font-size: 16px;
+	text-decoration:underline;
+	color:#489b0d;
+}
+#middle_right .info_con1  a:hover{
+	font-weight: bold;
+	text-decoration:underline;
+	color:#489b0d;
+}
+
+.info_con{
+	height:260px;
+	border:1px solid #489b0d;
+	border-top:2px solid #489b0d;
+	overflow:hidden;
+}
+.info_con ul{
+   list-style:none;
+   margin:0px;
+   padding:5px;
+   padding-left:10px;
+}
+.info_con  li a{
+	font-size: 12px;
+	text-decoration:none;
+	color:#666;
+}
+.info_con  li a:hover{
+	font-weight: bold;
+	text-decoration:underline;
+	color:#489b0d;
+}
+.info_con .info_text{
+	width:350px;
+	height:28px;
+	line-height:28px;
+	float:left;
+	background:url('../images/ico-1.gif') no-repeat left center;
+	padding-left:10px;
+}
+.info_con .info_time{
+	width:100px;
+	height:28px;
+	line-height:28px;
+	float:right;
+	color:#666;
+}
+
+
+#note{
+	width:255px;
+	height:485px;
+	overflow:hidden;
+}
+.note_con{
+	height:452px;
+	border:1px solid #489b0d;
+	border-top:2px solid #489b0d;
+	overflow:hidden;
+}
+.note_con ul{
+   list-style:none;
+   margin:0px;
+   padding:5px;
+   color:black;
+}
+.note_con  li {
+	width:100%;
+	line-height:28px;
+	background:url('../images/ico-3.gif') no-repeat left 12px;
+	padding-left:8px;
+}
+.note_con  li a{
+	font-size: 12px;
+	text-decoration:none;
+	color:black;
+}
+.note_con  li a:hover{
+	text-decoration:none;
+	color:#489b0d;
+}
+#friendlink{
+	width:255px;
+	height:355px;
+	margin-top:5px;
+	overflow:hidden;
+}
+.friendlink_con{
+	height:320px;
+	border:1px solid #489b0d;
+	border-top:2px solid #489b0d;
+	overflow:hidden;
+}
+.friendlink_con img{
+	width:98px;
+	height:38px;
+	margin-top:15px;
+	margin-left:15px;
+	border:0px;
+}
+.infos1{
+	float:left;
+	width:347px;
+	height:190px;
+	margin-top:5px;
+	overflow:hidden;
+}
+.infos2{
+	float:left;
+	margin-left:6px;
+	width:347px;
+	height:190px;
+	margin-top:5px;
+	overflow:hidden;
+}
+.infos3{
+	float:left;
+	width:700px;
+	height:190px;
+	margin-top:5px;
+	overflow:hidden;
+}
+.infos_con{
+	height:160px;
+	overflow:hidden;
+}
+.infos_con ul{
+   list-style:none;
+   margin:0px;
+   padding:5px;
+   color:#666;
+}
+.infos_con  li {
+	width:100%;
+	line-height:28px;
+	background:url('../images/ico-3.gif') no-repeat left 12px;
+	padding-left:8px;
+}
+.infos_con  li a{
+	font-size: 12px;
+	text-decoration:none;
+	color:#666;
+}
+.infos_con  li a:hover{
+	text-decoration:none;
+	color:#489b0d;
+}
+
+ 
+#bottom{
+	margin:0 auto;
+	text-align: center;
+	width:960px;
+	height:34px;
+	line-height:34px;
+	margin-top:5px;
+	overflow:hidden;
+	color: #e0d7d7; 
+	border-top-color: #489b0d; 
+	border-top-width: 2px; 
+	border-top-style: solid; 
+	background-color: #4d9b13;
+}
+
+.inputstyle{
+    vertical-align:text-bottom;
+    FONT-SIZE: 12px; 
+    COLOR: #b54747;
+}
+.inputpagestyle{
+    width: 20px;
+    vertical-align:text-bottom;
+    color:gray;
+}
+.alinkstyle{
+    color:blue;
+    vertical-align:bottom;
+}
+.btnstyle
+{
+	CURSOR: pointer;
+	COLOR: #000000;
+	PADDING-TOP: 2px;
+	HEIGHT: 23px;
+	background-image: url(../images/bt_yangs.jpg);
+	background-repeat: repeat-x;
+	BORDER:1px solid #489b0d;
+	vertical-align:text-bottom;
+}
+.circle{
+	margin:0 auto;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%; 
+	overflow:hidden;
+	position:relative;
+	z-index:10;
+	behavior: url(js/PIE-1.0.0/PIE.htc);
+}
